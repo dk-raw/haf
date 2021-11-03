@@ -26,7 +26,7 @@
       <div class="col">
         <Card
           header="Dassault Mirage 2000-5"
-          description="Equiped with the Antilope 50 radar, centerline tank and armed with 2 MICA EM and MAGIC-2 infra red supersonic active radar data link guided missles, 4 ΑΜ-39 EXOCET active radar bombs and 2 SCALP-EG Royal Augmenting Charge bombs."
+          description="Equipped with the Antilope 50 radar, centerline tank and armed with 2 MICA EM and MAGIC-2 infra red supersonic active radar data link guided missles, 4 ΑΜ-39 EXOCET active radar bombs and 2 SCALP-EG Royal Augmenting Charge bombs."
           imageUrl="mirage2000.jpg"
           :tags="[{ type: 'Fighter' }, { type: 'Bomber' }]"
         />
@@ -34,7 +34,7 @@
       <div class="col">
         <Card
           header="Dassault Rafale F3R"
-          description="Equiped with a SAGEM-OSF Optronique Secteur Frontal infra red search and track system, RBE2-AA AESA radar and armed with MICA EM and MAGIC-2 infra red supersonic active radar data link guided missles as well as MBDA AM 39-Exocet anti-ship Missiles."
+          description="Equipped with a SAGEM-OSF Optronique Secteur Frontal infra red search and track system, RBE2-AA AESA radar and armed with MICA EM and MAGIC-2 infra red supersonic active radar data link guided missles as well as MBDA AM 39-Exocet anti-ship Missiles."
           imageUrl="dassault-rafale.jpg"
           :tags="[{ type: 'Fighter' }]"
         />
@@ -90,7 +90,7 @@
       <div class="col">
         <Card
           header="Eurocopter AS332C1 Super Puma"
-          description="Multi role utility helicopter equiped with anti-submarine warfare systems and anti-surface warfare systems including a sonar and Omera search radar. Greece also operate search and rescue variants of the helicopter."
+          description="Multi role utility helicopter equipped with anti-submarine warfare systems and anti-surface warfare systems including a sonar and Omera search radar. Greece also operate search and rescue variants of the helicopter."
           imageUrl="super-puma.jpg"
           :tags="[{ type: 'Helicopter' }, { type: 'Multi Role' }]"
         />
@@ -98,7 +98,7 @@
       <div class="col">
         <Card
           header="Sikorsky SH-70B Aegean Hawk"
-          description="Multi role helicopter used for anti-submarine and anti-surface warfare. Equiped with a pneumatic sonobuoy launcher, a magnetic anomaly detector and forward infra red. Armed with MK-46 torpedoes, AGM-119B and AGM-114M guided missles."
+          description="Multi role helicopter used for anti-submarine and anti-surface warfare. Equipped with a pneumatic sonobuoy launcher, a magnetic anomaly detector and forward infra red. Armed with MK-46 torpedoes, AGM-119B and AGM-114M guided missles."
           imageUrl="sh-70.jpg"
           :tags="[{ type: 'Helicopter' }, { type: 'Multi Role' }]"
         />
@@ -114,7 +114,7 @@
       <div class="col">
         <Card
           header="Raytheon MIM-104 Patriot"
-          description="Remotely controled HSAM with an 150km interception range. Capable of intercepting up to 9 ballistic/tactical/cruise missles or figther jets. It can be armed with MIM-104D GEM, MIM-104B SOJC or MIM-104A mach 3+ 90kg warhead missles. It is equiped with a AN/MPQ-65 long range Radar Set."
+          description="Remotely controled HSAM with an 150km interception range. Capable of intercepting up to 9 ballistic/tactical/cruise missles or fighter jets. It can be armed with MIM-104D GEM, MIM-104B SOJC or MIM-104A mach 3+ 90kg warhead missles. It is equipped with a AN/MPQ-65 long range Radar Set."
           imageUrl="mim-patriot.jpg"
           :tags="[{ type: 'HSAM' }, { type: 'ABM' }]"
         />
@@ -122,7 +122,7 @@
       <div class="col">
         <Card
           header="NPO Almaz S-300 PMU1"
-          description="HSAM capable of protecting a large area by intercepting up to 4 fighter jets and ballistic/tactical/cruise missles. Equiped with RSR and SSR radars and armed with 4 long range 48Ν6Ε TVM 150kg warhead missles."
+          description="HSAM capable of protecting a large area by intercepting up to 4 fighter jets and ballistic/tactical/cruise missles at a time. Equipped with RSR and SSR radars and armed with 4 long range 48Ν6Ε TVM 150kg warhead missles."
           imageUrl="s-300.jpg"
           :tags="[{ type: 'HSAM' }, { type: 'ABM' }]"
         />
@@ -130,7 +130,7 @@
       <div class="col">
         <Card
           header="Thomson CSF Matra Crotale NG"
-          description="InfraRed Differential Ecartometry short range anti ship missle and aircraft armed with VT-1 mach 3.5 18kg warhead missles and equiped with a S-band Pulse Doppler radar, Ku-band TWT tracking radar. Thermal camera, CCD camera and IR Localizer for optimal missle interception."
+          description="Infra red Differential Ecartometry short range anti-ship and anti-aircraft system armed with VT-1 mach 3.5 18kg warhead missles and equipped with a S-band Pulse Doppler radar, Ku-band TWT tracking radar. Thermal camera, CCD camera and IR Localizer for optimal missle interception."
           imageUrl="crotale-ng.jpg"
           :tags="[{ type: 'SHORAD' }, { type: 'ASM' }]"
         />
