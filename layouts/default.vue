@@ -1,7 +1,12 @@
 <template>
   <div>
-    <Navbar brand="HAF"/>
+    <Navbar brand="HAF" />
     <Nuxt />
+    <br />
+    <br />
+    <br />
+    <br />
+    <Footer />
   </div>
 </template>
 
