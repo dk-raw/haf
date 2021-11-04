@@ -14,12 +14,14 @@
       <p class="card-text">{{ description }}</p>
     </div>
     <div class="card-footer">
-      <span
-        class="badge bg-primary m-1"
+      
+
+      <Badge
         v-for="tag in tags"
         :key="tag.id"
-        v-text="tag.type"
-      ></span>
+        :text="tag.type"
+        color="primary"
+      />
     </div>
   </div>
 </template>
