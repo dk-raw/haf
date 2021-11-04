@@ -3,7 +3,7 @@
     <h1>Hellenic Air Force unofficial website</h1>
     <hr />
     <video
-      src="../assets/videos/haf-promo.webm"
+      src="../assets/videos/haf-promo.mp4"
       type="video/webm"
       autoplay="true"
       muted
