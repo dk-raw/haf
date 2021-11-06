@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h1>Hellenic Air Force unofficial website</h1>
+    <h1>Hellenic Air Force unofficial website- The best airforce in NATO</h1>
     <hr />
     <video
       src="../assets/videos/haf-promo.mp4"

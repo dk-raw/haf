@@ -17,8 +17,8 @@
     >
       <div class="col">
         <Card
-          header="General Dynamics F-16 Block 52+ Fighting Falcon"
-          description="Supersonic air superiority fighter jet armed with AIM-9 Sidewinders air-to-air missles, AIM-2000 infra red guided missles and AGM 88 anti-radiation missiles. It is also equipped with a long range pulse doppler radar and electronic warfare countermeasures."
+          header="General Dynamics F-16V Block 72 Viper"
+          description="State-of-the-art supersonic air superiority fighter armed with AIM-9 Sidewinders air-to-air missles, AIM-2000 infra red guided missles and AGM 88 anti-radiation missiles. It is also equipped with a long range pulse doppler radar and electronic warfare countermeasures."
           imageUrl="f16-viper.jpg"
           :tags="[{ type: 'Fighter' }]"
         />
@@ -65,6 +65,14 @@
       </div>
       <div class="col">
         <Card
+          header="Erieye EMB-145H AEW&C"
+          description="Airborne early warning and control (Command & Control) aircraft fitted with an active electronically scanned array radar, anti-submarine warfare system and forward looking infra red system. Capable of data link & voice connections, ELINT intelligence gathering and EMCON."
+          imageUrl="emb-145h.jpg"
+          :tags="[{ type: 'Support' }, { type: 'Intelligence' }]"
+        />
+      </div>
+      <div class="col">
+        <Card
           header="Lockheed C-130 Hercules"
           description="Military transport aircraft capable of transporting heavy payloads over large distances and takeoffs and landings on unprepared runways."
           imageUrl="c-130.jpg"
@@ -81,10 +89,14 @@
       </div>
       <div class="col">
         <Card
-          header="Erieye EMB-145H AEW&C"
-          description="Airborne early warning and control (Command & Control) aircraft fitted with an active electronically scanned array radar, anti-submarine warfare system and forward looking infra red system. Capable of data link & voice connections, ELINT intelligence gathering and EMCON."
-          imageUrl="emb-145h.jpg"
-          :tags="[{ type: 'Support' }, { type: 'Intelligence' }]"
+          header="Boeing CH-47 Chinook"
+          description="Twin engine heavy-lift transport helicopter extenively used around the world to transport extremely heavy payloads over large distances."
+          imageUrl="chinook.jpg"
+          :tags="[
+            { type: 'Helicopter' },
+            { type: 'Support' },
+            { type: 'Transport' },
+          ]"
         />
       </div>
       <div class="col">
@@ -97,7 +109,7 @@
       </div>
       <div class="col">
         <Card
-          header="Boeing AH-64 Apache"
+          header="Boeing AH-64 Apache Longbow"
           description="Twin turboshaft attack helicopter featuring target acquisition and designation, a night vision system, infra red countermeasures, a thermographic camera as well as a helmet mounted display. Armed with AGM-114 guided missles and Hydra 70 rocket pods."
           imageUrl="apache.jpg"
           :tags="[{ type: 'Helicopter' }, { type: 'Attack Helicopter' }]"
@@ -109,6 +121,34 @@
           description="Multi role utility helicopter equipped with anti-submarine warfare and anti-surface warfare systems including a sonar and Omera search radar. Greece also operate search and rescue variants of the helicopter."
           imageUrl="super-puma.jpg"
           :tags="[{ type: 'Helicopter' }, { type: 'Multi Role' }]"
+        />
+      </div>
+      <div class="col">
+        <Card
+          header="IAI Heron UAV"
+          description="Long endurance reconnaissance unmaned aerial vehicle capable of operations of up to 52 hours. Equiped with a airborne ground surveillance, thermographic, COMINT and ELINT systems while capable of target acquisition and artillery guidance."
+          imageUrl="iai-heron.jpg"
+          :tags="[
+            { type: 'UAV' },
+            { type: 'Support' },
+            { type: 'Intelligence' },
+          ]"
+        />
+      </div>
+      <div class="col">
+        <Card
+          header="SAGEM Sperwer"
+          description="Short range reconnaissance unmaned aerial vehicle capable of sending back images of enemy infrastructure to it's base. The Sperwer has a 5 hour endurance."
+          imageUrl="sagem-sperwer.jpg"
+          :tags="[{ type: 'UAV' }, { type: 'Intelligence' }]"
+        />
+      </div>
+      <div class="col">
+        <Card
+          header="E1-79 Pegasus II"
+          description="Long endurance over-battlefield reconnaissance and intelligence surveillance unmaned aerial vehicle also capable fo ELINT. The Pegasus has a 15 hour range and can easily operate over the battlefield."
+          imageUrl="pegasus.jpg"
+          :tags="[{ type: 'UAV' }, { type: 'Intelligence' }]"
         />
       </div>
       <div class="col">
@@ -140,6 +180,14 @@
           header="TOR M1"
           description="High accuracy short range SAM caplable of destroying airplanes, helicopters, cruise missiles, precision guided munitions, UAVs and short range ballistic threats. Armed with 4 15kg warhead radar controlled proximity fuzed missles. Capable of intercepting up to 2 targets simultaneously."
           imageUrl="tor-m1.jpg"
+          :tags="[{ type: 'SHORAD' }, { type: 'ASM' }]"
+        />
+      </div>
+      <div class="col">
+        <Card
+          header="9K33 Osa"
+          description="High accuracy short range tactical SAM equipped with a 1S51M3-2 radar consisting of a J band parabolic dish antenna, an elliptical rotating surveillance antenna and a large pulsed J band engagement antenna making it ideal for short range applications."
+          imageUrl="9k33-osa.jpg"
           :tags="[{ type: 'SHORAD' }, { type: 'ASM' }]"
         />
       </div>
