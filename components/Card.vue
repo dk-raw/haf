@@ -4,18 +4,15 @@
       ><img
         :src="require(`@/assets/images/${imageUrl}`)"
         class="card-img-top"
-        :alt="header"
+        :alt="`image of a ${header}`"
         :title="header"
       />
     </a>
-
     <div class="card-body">
       <h5 class="card-title">{{ header }}</h5>
       <p class="card-text">{{ description }}</p>
     </div>
     <div class="card-footer">
-      
-
       <Badge
         v-for="tag in tags"
         :key="tag.id"

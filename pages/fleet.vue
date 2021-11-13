@@ -1,6 +1,9 @@
 <template>
   <div class="container">
     <h1>HAF Fleet</h1>
+    <p class="lead">
+      fighters, bombers, UAVs, helicopters, anti-air systems and transporters
+    </p>
     <hr />
     <div
       class="
@@ -17,9 +20,17 @@
     >
       <div class="col">
         <Card
-          header="General Dynamics F-16V Block 72 Viper"
-          description="State-of-the-art supersonic air superiority fighter armed with AIM-9 Sidewinders air-to-air missles, AIM-2000 infra red guided missles and AGM 88 anti-radiation missiles. It is also equipped with a long range pulse doppler radar and electronic warfare countermeasures."
+          header="Lockheed F-16C/D/V Block 52+/72 Viper"
+          description="State-of-the-art supersonic air superiority fighter armed with AIM-9 Sidewinders, AIM-120 AMRAAMs, AIM-2000s infra red guided, and AGM 88 anti-radiation missiles. It is also equipped with an AN/APG-83 AESA radar, and electronic warfare countermeasures."
           imageUrl="f16-viper.jpg"
+          :tags="[{ type: 'Fighter' }]"
+        />
+      </div>
+      <div class="col">
+        <Card
+          header="Dassault Rafale F3R"
+          description="Two seat, twin engine air supremacy fighter jet equipped with a SAGEM-OSF optronique secteur frontal infra red search and track system, RBE2-AA AESA radar and armed with MICA EM and MAGIC-2 infra red active radar data link guided missles as well as MBDA AM 39-Exocet anti-ship missiles."
+          imageUrl="rafale.jpg"
           :tags="[{ type: 'Fighter' }]"
         />
       </div>
@@ -29,14 +40,6 @@
           description="Equipped with the Antilope 50 radar, the Damocles forward looking infra red and Thales RDY-2 synthetic aperture radar and armed with MICA EM/MAGIC-2 infra red active radar data link guided missles, ΑΜ-39 EXOCET active radar bombs and 2 SCALP-EG augmenting charge bombs."
           imageUrl="mirage2000.jpg"
           :tags="[{ type: 'Fighter' }, { type: 'Bomber' }]"
-        />
-      </div>
-      <div class="col">
-        <Card
-          header="Dassault Rafale F3R"
-          description="Two seat, twin engine air supremacy fighter jet equipped with a SAGEM-OSF optronique secteur frontal infra red search and track system, RBE2-AA AESA radar and armed with MICA EM and MAGIC-2 infra red active radar data link guided missles as well as MBDA AM 39-Exocet anti-ship missiles."
-          imageUrl="dassault-rafale.jpg"
-          :tags="[{ type: 'Fighter' }]"
         />
       </div>
       <div class="col">

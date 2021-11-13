@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-    <h1>Hellenic Air Force unofficial website- The best airforce in NATO</h1>
+    <h1>Hellenic Air Force unofficial website</h1>
+    <p class="lead fst-italic">-"The best airforce in NATO"</p>
     <hr />
     <video
       src="../assets/videos/haf-promo.mp4"
@@ -15,5 +16,10 @@
 </template>
 
 <script>
-export default {};
+export default {
+  loading: {
+    color: "blue",
+    height: "5px",
+  },
+};
 </script>
