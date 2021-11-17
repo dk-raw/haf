@@ -1,11 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@font-face {
+  font-family: "Stratum";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/stratum2.woff) format("woff2");
+}
+@font-face {
+  font-family: "Stratum";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/stratum2-bold.woff) format("woff2");
+}
+@font-face {
+  font-family: "FFDIN";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(fonts/FFDIN.woff2) format("woff2");
+}
+@font-face {
+  font-family: "FFDIN";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(fonts/FFDIN-bold.woff2) format("woff2");
+}
 
 body {
   color: hsl(0, 0%, 90%);
   background-color: hsl(0, 0%, 9%);
-  font-family: "Open Sans", sans-serif;
+  font-family: "FFDIN", "Open Sans", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Stratum", "Open Sans", sans-serif;
+  font-weight: 700;
 }
 
 .container {
@@ -37,6 +74,10 @@ body {
 .card {
   background-color: hsl(0, 0%, 9%);
   border: 1px solid hsl(0, 0%, 25%);
+}
+
+.card-title {
+  font-family: "Stratum";
 }
 
 .bg-primary {

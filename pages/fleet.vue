@@ -201,5 +201,8 @@
 <script>
 export default {
   name: "Fleet",
+  data() {
+    return {};
+  },
 };
 </script>
