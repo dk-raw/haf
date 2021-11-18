@@ -112,7 +112,7 @@
       </div>
       <div class="col">
         <Card
-          header="Sikorsky SH-70B Aegean Hawk"
+          header="Sikorsky SH-70B/60R Aegean Hawk"
           description="Multi role helicopter used for anti-submarine and anti-surface warfare. Equipped with a pneumatic sonobuoy launcher, a magnetic anomaly detector and forward looking infra red. Armed with MK-46 torpedoes and AGM-119B/AGM-114M guided missles."
           imageUrl="sh-70.jpg"
           :tags="[{ type: 'Helicopter' }, { type: 'Anti-Submarine' }]"
