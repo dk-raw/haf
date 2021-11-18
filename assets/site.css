@@ -80,8 +80,9 @@ h5 {
   font-family: "Stratum";
 }
 
-.bg-primary {
+.badge.bg-primary {
   background-color: hsl(206, 70%, 72%) !important;
+  color: hsl(0, 0%, 0%);
 }
 
 .img-banner {

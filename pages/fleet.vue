@@ -76,8 +76,8 @@
       </div>
       <div class="col">
         <Card
-          header="Lockheed C-130 Hercules"
-          description="Military transport aircraft capable of transporting heavy payloads over large distances and takeoffs and landings on unprepared runways."
+          header="Lockheed C-130/H Hercules"
+          description="Military transport aircraft capable of transporting heavy payloads over large distances and takeoffs or landings on unprepared and unpaved runways. The Hellenic Air Force operates 2 C-130H EW variants used for electronic warfare and early warning and control."
           imageUrl="c-130.jpg"
           :tags="[{ type: 'Support' }, { type: 'Transport' }]"
         />
@@ -85,7 +85,7 @@
       <div class="col">
         <Card
           header="Alenia C-27J Spartan"
-          description="Military transport aircraft capable of transporting heavy payloads over large distances."
+          description="Military transport aircraft capable of transporting heavy payloads over large distances. It's maximum is payload weight is around 11,6 tons and features 2 Rolls-Royce AE2100-D2A turboprop engines wwith a combined thrust of 6,916 kW and a 1,759 km range."
           imageUrl="c-27j.jpg"
           :tags="[{ type: 'Support' }, { type: 'Transport' }]"
         />
@@ -93,7 +93,7 @@
       <div class="col">
         <Card
           header="Boeing CH-47 Chinook"
-          description="Twin engine heavy-lift transport helicopter extenively used around the world to transport extremely heavy payloads over large distances."
+          description="Twin engine heavy-lift transport helicopter extenively to transport extremely heavy payloads over large distances. It features 2 Lycoming T55-GA-714A turboshaft engines with a combined power output of 7,458 kW. The CH-47 can achieve speeds of up to 170 knots."
           imageUrl="chinook.jpg"
           :tags="[
             { type: 'Helicopter' },
@@ -104,15 +104,7 @@
       </div>
       <div class="col">
         <Card
-          header="Sikorsky SH-70B Aegean Hawk"
-          description="Multi role helicopter used for anti-submarine and anti-surface warfare. Equipped with a pneumatic sonobuoy launcher, a magnetic anomaly detector and forward looking infra red. Armed with MK-46 torpedoes and AGM-119B/AGM-114M guided missles."
-          imageUrl="sh-70.jpg"
-          :tags="[{ type: 'Helicopter' }, { type: 'Multi Role' }]"
-        />
-      </div>
-      <div class="col">
-        <Card
-          header="Boeing AH-64 Apache Longbow"
+          header="Boeing AH-64A/D Apache Longbow"
           description="Twin turboshaft attack helicopter featuring target acquisition and designation, a night vision system, infra red countermeasures, a thermographic camera as well as a helmet mounted display. Armed with AGM-114 guided missles and Hydra 70 rocket pods."
           imageUrl="apache.jpg"
           :tags="[{ type: 'Helicopter' }, { type: 'Attack Helicopter' }]"
@@ -120,8 +112,32 @@
       </div>
       <div class="col">
         <Card
+          header="Sikorsky SH-70B Aegean Hawk"
+          description="Multi role helicopter used for anti-submarine and anti-surface warfare. Equipped with a pneumatic sonobuoy launcher, a magnetic anomaly detector and forward looking infra red. Armed with MK-46 torpedoes and AGM-119B/AGM-114M guided missles."
+          imageUrl="sh-70.jpg"
+          :tags="[{ type: 'Helicopter' }, { type: 'Anti-Submarine' }]"
+        />
+      </div>
+      <div class="col">
+        <Card
+          header="Bell OH-58D Kiowa"
+          description="Armed military helicopter used for observation and reconnaissance over the battlefield. It is armed with Hydra 70 rocket pods and AGM-114 guided missles. The craft is also fitted with a thermal imaging and laser range finder/designator system as well as a passive wire strike protection system."
+          imageUrl="bell-oh58.jpg"
+          :tags="[{ type: 'Helicopter' }, { type: 'Intelligence' }]"
+        />
+      </div>
+      <div class="col">
+        <Card
+          header="NHIndustries NH90 TTH"
+          description="Multi role utility military helicopter primarily used for tactical transport fitted with a full fly-by-wire system, infrared suppression system, wire strike protection system, forward looking infrared, helmet mounted display. The NH90 possesses the lowest radar signature in its class."
+          imageUrl="nh-90.jpg"
+          :tags="[{ type: 'Helicopter' }, { type: 'Multi Role' }]"
+        />
+      </div>
+      <div class="col">
+        <Card
           header="Eurocopter AS332C1 Super Puma"
-          description="Multi role utility helicopter equipped with anti-submarine warfare and anti-surface warfare systems including a sonar and Omera search radar. Greece also operate search and rescue variants of the helicopter."
+          description="Multi role utility helicopter primarily used for combat search and rescue and medical evacuation. The helicopter is equipped with a forward looking infrared, Omera search radar and a sonar system. The Super Puma has a maximum speed of 150 knots."
           imageUrl="super-puma.jpg"
           :tags="[{ type: 'Helicopter' }, { type: 'Multi Role' }]"
         />
@@ -131,11 +147,7 @@
           header="IAI Heron UAV"
           description="Long endurance reconnaissance unmaned aerial vehicle capable of operations of up to 52 hours. Equiped with a airborne ground surveillance, thermographic, COMINT and ELINT systems while capable of target acquisition and artillery guidance."
           imageUrl="iai-heron.jpg"
-          :tags="[
-            { type: 'UAV' },
-            { type: 'Support' },
-            { type: 'Intelligence' },
-          ]"
+          :tags="[{ type: 'UAV' }, { type: 'Intelligence' }]"
         />
       </div>
       <div class="col">
@@ -195,6 +207,11 @@
         />
       </div>
     </div>
+    <hr />
+    <p class="lead text-muted">
+      *this list includes equipment belonging to the Hellenic Navy and Hellenic
+      Army
+    </p>
   </div>
 </template>
 
