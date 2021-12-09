@@ -36,18 +36,22 @@
       </div>
       <div class="col">
         <Card
-          header="Dassault Mirage 2000-5"
-          description="Equipped with the Antilope 50 radar, the Damocles forward looking infra red and Thales RDY-2 synthetic aperture radar and armed with MICA EM/MAGIC-2 infra red active radar data link guided missles, ΑΜ-39 EXOCET active radar bombs and 2 SCALP-EG augmenting charge bombs."
-          imageUrl="mirage2000.jpg"
-          :tags="[{ type: 'Fighter' }, { type: 'Bomber' }]"
+          header="McDonnell Douglas F-4E Phantom II PI 2000"
+          description="Long range supersonic fighter bomber armed with an AFDS, CBU-58/71 bombs, Mk 36 Destructor bombs, AGM-65 G infra red, AGM-65 A/B guided missles and GBU-10-12-16 laser guided missles."
+          imageUrl="f4-phantom.jpg"
+          :tags="[
+            { type: 'Bomber' },
+            { type: 'Interceptor' },
+            { type: 'Attack' },
+          ]"
         />
       </div>
       <div class="col">
         <Card
-          header="McDonnell Douglas F-4 Phantom II"
-          description="Long range supersonic fighter bomber armed with an AFDS, CBU-58/71 bombs, Mk 36 Destructor bombs, AGM-65 G infra red, AGM-65 A/B guided missles and GBU-10-12-16 laser guided missles."
-          imageUrl="f4-phantom.jpg"
-          :tags="[{ type: 'Bomber' }]"
+          header="Dassault Mirage 2000-5"
+          description="Equipped with the Antilope 50 radar, the Damocles forward looking infra red and Thales RDY-2 synthetic aperture radar and armed with MICA EM/MAGIC-2 infra red active radar data link guided missles, ΑΜ-39 EXOCET active radar bombs and 2 SCALP-EG augmenting charge bombs."
+          imageUrl="mirage2000.jpg"
+          :tags="[{ type: 'Fighter' }]"
         />
       </div>
       <div class="col">
@@ -71,7 +75,7 @@
           header="Erieye EMB-145H AEW&C"
           description="Airborne early warning and control (Command & Control) aircraft fitted with an active electronically scanned array radar, anti-submarine warfare system and forward looking infra red system. Capable of data link & voice connections, ELINT intelligence gathering and EMCON."
           imageUrl="emb-145h.jpg"
-          :tags="[{ type: 'Support' }, { type: 'Intelligence' }]"
+          :tags="[{ type: 'Support' }, { type: 'AEW&C' }]"
         />
       </div>
       <div class="col">
@@ -79,7 +83,11 @@
           header="Lockheed C-130/H Hercules"
           description="Military transport aircraft capable of transporting heavy payloads over large distances and takeoffs or landings on unprepared and unpaved runways. The Hellenic Air Force operates 2 C-130H EW variants used for electronic warfare and early warning and control."
           imageUrl="c-130.jpg"
-          :tags="[{ type: 'Support' }, { type: 'Transport' }]"
+          :tags="[
+            { type: 'Support' },
+            { type: 'Transport' },
+            { type: 'AEW&C' },
+          ]"
         />
       </div>
       <div class="col">
@@ -107,7 +115,7 @@
           header="Boeing AH-64A/D Apache Longbow"
           description="Twin turboshaft attack helicopter featuring target acquisition and designation, a night vision system, infra red countermeasures, a thermographic camera as well as a helmet mounted display. Armed with AGM-114 guided missles and Hydra 70 rocket pods."
           imageUrl="apache.jpg"
-          :tags="[{ type: 'Helicopter' }, { type: 'Attack Helicopter' }]"
+          :tags="[{ type: 'Helicopter' }, { type: 'Attack' }]"
         />
       </div>
       <div class="col">
@@ -123,7 +131,11 @@
           header="Bell OH-58D Kiowa"
           description="Armed military helicopter used for observation and reconnaissance over the battlefield. It is armed with Hydra 70 rocket pods and AGM-114 guided missles. The craft is also fitted with a thermal imaging and laser range finder/designator system as well as a passive wire strike protection system."
           imageUrl="bell-oh58.jpg"
-          :tags="[{ type: 'Helicopter' }, { type: 'Intelligence' }]"
+          :tags="[
+            { type: 'Helicopter' },
+            { type: 'Reconnaissance' },
+            { type: 'Attack' },
+          ]"
         />
       </div>
       <div class="col">
@@ -147,7 +159,7 @@
           header="IAI Heron UAV"
           description="Long endurance reconnaissance unmaned aerial vehicle capable of operations of up to 52 hours. Equiped with a airborne ground surveillance, thermographic, COMINT and ELINT systems while capable of target acquisition and artillery guidance."
           imageUrl="iai-heron.jpg"
-          :tags="[{ type: 'UAV' }, { type: 'Intelligence' }]"
+          :tags="[{ type: 'UAV' }, { type: 'Reconnaissance' }]"
         />
       </div>
       <div class="col">
@@ -155,7 +167,7 @@
           header="SAGEM Sperwer"
           description="Short range reconnaissance unmaned aerial vehicle capable of sending back images of enemy infrastructure to it's base. The Sperwer has a 5 hour endurance."
           imageUrl="sagem-sperwer.jpg"
-          :tags="[{ type: 'UAV' }, { type: 'Intelligence' }]"
+          :tags="[{ type: 'UAV' }, { type: 'Reconnaissance' }]"
         />
       </div>
       <div class="col">
@@ -163,7 +175,7 @@
           header="E1-79 Pegasus II"
           description="Long endurance over-battlefield reconnaissance and intelligence surveillance unmaned aerial vehicle also capable fo ELINT. The Pegasus has a 15 hour range and can easily operate over the battlefield."
           imageUrl="pegasus.jpg"
-          :tags="[{ type: 'UAV' }, { type: 'Intelligence' }]"
+          :tags="[{ type: 'UAV' }, { type: 'Reconnaissance' }]"
         />
       </div>
       <div class="col">
@@ -208,10 +220,10 @@
       </div>
     </div>
     <hr />
-    <p class="lead text-muted">
+    <small class="text-muted">
       *this list includes equipment belonging to the Hellenic Navy and Hellenic
       Army
-    </p>
+    </small>
   </div>
 </template>
 
@@ -219,7 +231,17 @@
 export default {
   name: "Fleet",
   data() {
-    return {};
+    return {
+      fleet: [
+        {
+          name: "Lockheed F-16C/D/V Block 52+/72 Viper",
+          description:
+            "State-of-the-art supersonic air superiority fighter armed with AIM-9 Sidewinders, AIM-120 AMRAAMs, AIM-2000s infra red guided, and AGM 88 anti-radiation missiles. It is also equipped with an AN/APG-83 AESA radar, and electronic warfare countermeasures.",
+          imageUrl: "f-16.jpg",
+          tags: [{ type: "Fighter" }],
+        },
+      ],
+    };
   },
 };
 </script>
