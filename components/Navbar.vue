@@ -26,9 +26,6 @@
           <li class="nav-item">
             <NuxtLink to="/fleet" class="nav-link">Fleet</NuxtLink>
           </li>
-          <li class="nav-item">
-            <NuxtLink to="/arsenal" class="nav-link">Arsenal</NuxtLink>
-          </li>
         </ul>
       </div>
     </div>

@@ -28,7 +28,7 @@
       </div>
       <div class="col">
         <Card
-          header="Dassault Rafale F3R"
+          header="Dassault Rafale B/C F3R"
           description="Two seat, twin engine air supremacy fighter jet equipped with a SAGEM-OSF optronique secteur frontal infra red search and track system, RBE2-AA AESA radar and armed with MICA EM and MAGIC-2 infra red active radar data link guided missles as well as MBDA AM 39-Exocet anti-ship missiles."
           imageUrl="rafale.jpg"
           :tags="[{ type: 'Fighter' }]"
@@ -64,7 +64,7 @@
       </div>
       <div class="col">
         <Card
-          header="Lockheed P-3 Orion"
+          header="Lockheed P-3B Orion"
           description="Fitted with a ASQ-81 magnetic anomaly detector, a AN/APS-115 maritime surveillance radar and AN/APS-137D(V)5 inverse synthetic aperture search radar. The Orion is also armed with Mk 46 Mod.5 torpedoes and Mk 55 naval mines for optimal submarine hunting and naval surveillance."
           imageUrl="p-3.jpg"
           :tags="[{ type: 'Support' }, { type: 'Anti-Submarine' }]"
@@ -120,7 +120,7 @@
       </div>
       <div class="col">
         <Card
-          header="Sikorsky SH-70B/60R Aegean Hawk"
+          header="Sikorsky SH-70B6/MH-60R Aegean Hawk"
           description="Multi role helicopter used for anti-submarine and anti-surface warfare. Equipped with a pneumatic sonobuoy launcher, a magnetic anomaly detector and forward looking infra red. Armed with MK-46 torpedoes and AGM-119B/AGM-114M guided missles."
           imageUrl="sh-70.jpg"
           :tags="[{ type: 'Helicopter' }, { type: 'Anti-Submarine' }]"
@@ -180,7 +180,7 @@
       </div>
       <div class="col">
         <Card
-          header="Raytheon MIM-104 Patriot"
+          header="Raytheon MIM-104 Patriot PAC3"
           description="Remotely controled HSAM with an 150km interception range. Capable of intercepting up to 9 ballistic, tactical, cruise missles or fighter jets. It can be armed either with MIM-104D GEM/MIM-104B SOJC or MIM-104A supersonic 90kg warhead missles. It is also equipped with a AN/MPQ-65 long range radar set."
           imageUrl="mim-patriot.jpg"
           :tags="[{ type: 'HSAM' }, { type: 'ABM' }]"
