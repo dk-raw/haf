@@ -20,7 +20,7 @@
     >
       <div class="col">
         <Card
-          header="Lockheed F-16C/D/V Block 52+/72 Viper"
+          header="Lockheed F-16C/D/V Block 30/40/50/52+/72 Viper"
           description="State-of-the-art supersonic air superiority fighter armed with AIM-9 Sidewinders, AIM-120 AMRAAMs, AIM-2000s infra red guided, and AGM 88 anti-radiation missiles. It is also equipped with an AN/APG-83 AESA radar, and electronic warfare countermeasures."
           imageUrl="f16-viper.jpg"
           :tags="[{ type: 'Fighter' }]"
@@ -104,6 +104,7 @@
           description="Twin engine heavy-lift transport helicopter extenively to transport extremely heavy payloads over large distances. It features 2 Lycoming T55-GA-714A turboshaft engines with a combined power output of 7,458 kW. The CH-47 can achieve speeds of up to 170 knots."
           imageUrl="chinook.jpg"
           :tags="[
+            { type: 'Army Air Force' },
             { type: 'Helicopter' },
             { type: 'Support' },
             { type: 'Transport' },
@@ -115,7 +116,11 @@
           header="Boeing AH-64A/D Apache Longbow"
           description="Twin turboshaft attack helicopter featuring target acquisition and designation, a night vision system, infra red countermeasures, a thermographic camera as well as a helmet mounted display. Armed with AGM-114 guided missles and Hydra 70 rocket pods."
           imageUrl="apache.jpg"
-          :tags="[{ type: 'Helicopter' }, { type: 'Attack' }]"
+          :tags="[
+            { type: 'Army Air Force' },
+            { type: 'Helicopter' },
+            { type: 'Attack' },
+          ]"
         />
       </div>
       <div class="col">
@@ -123,7 +128,11 @@
           header="Sikorsky SH-70B6/MH-60R Aegean Hawk"
           description="Multi role helicopter used for anti-submarine and anti-surface warfare. Equipped with a pneumatic sonobuoy launcher, a magnetic anomaly detector and forward looking infra red. Armed with MK-46 torpedoes and AGM-119B/AGM-114M guided missles."
           imageUrl="sh-70.jpg"
-          :tags="[{ type: 'Helicopter' }, { type: 'Anti-Submarine' }]"
+          :tags="[
+            { type: 'Navy' },
+            { type: 'Helicopter' },
+            { type: 'Anti-Submarine' },
+          ]"
         />
       </div>
       <div class="col">
@@ -132,6 +141,7 @@
           description="Armed military helicopter used for observation and reconnaissance over the battlefield. It is armed with Hydra 70 rocket pods and AGM-114 guided missles. The craft is also fitted with a thermal imaging and laser range finder/designator system as well as a passive wire strike protection system."
           imageUrl="bell-oh58.jpg"
           :tags="[
+            { type: 'Army Air Force' },
             { type: 'Helicopter' },
             { type: 'Reconnaissance' },
             { type: 'Attack' },
@@ -167,7 +177,11 @@
           header="SAGEM Sperwer"
           description="Short range reconnaissance unmaned aerial vehicle capable of sending back images of enemy infrastructure to it's base. The Sperwer has a 5 hour endurance."
           imageUrl="sagem-sperwer.jpg"
-          :tags="[{ type: 'UAV' }, { type: 'Reconnaissance' }]"
+          :tags="[
+            { type: 'Army Air Force' },
+            { type: 'UAV' },
+            { type: 'Reconnaissance' },
+          ]"
         />
       </div>
       <div class="col">
