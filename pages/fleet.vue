@@ -166,7 +166,23 @@
       </div>
       <div class="col">
         <Card
-          header="IAI Heron UAV"
+          header="IAI Heron TP"
+          description="Long endurance unmaned combat aerial vehicle capable of operations of up to 30 hours when fully armed. Armed with SPIKE NLOS anti-tank guided missile with a maximum range of 25km, the Heron TP has a service ceiling of 46,000 feet."
+          imageUrl="heron-tp.jpg"
+          :tags="[{ type: 'UAV' }, { type: 'UCAV' }]"
+        />
+      </div>
+      <div class="col">
+        <Card
+          header="General Atomics MQ-9 Reaper"
+          description="Unmaned combat aerial vehicle with the a maximum payload of 1,700kg and a maximum speed of 260 knots. It can be armed with up to 8 AGM-114 ATGMs or 4 GBU-12 laser guided bombs. The MQ-9 also features an AN/DAS-1 MTS-B electro-optical targeting system, AN/APY-8 Lynx II radar, SATCOM and autonomous flight."
+          imageUrl="mq-9.jpg"
+          :tags="[{ type: 'UAV' }, { type: 'UCAV' }]"
+        />
+      </div>
+      <div class="col">
+        <Card
+          header="IAI Heron"
           description="Long endurance reconnaissance unmaned aerial vehicle capable of operations of up to 52 hours. Equiped with a airborne ground surveillance, thermographic, COMINT and ELINT systems while capable of target acquisition and artillery guidance."
           imageUrl="iai-heron.jpg"
           :tags="[{ type: 'UAV' }, { type: 'Reconnaissance' }]"
@@ -175,7 +191,7 @@
       <div class="col">
         <Card
           header="SAGEM Sperwer"
-          description="Short range reconnaissance unmaned aerial vehicle capable of sending back images of enemy infrastructure to it's base. The Sperwer has a 5 hour endurance."
+          description="Short range reconnaissance unmaned aerial vehicle capable of sending back images of enemy infrastructure to it's base as well as targeting artillery fire. The Sperwer has a 5 hour endurance."
           imageUrl="sagem-sperwer.jpg"
           :tags="[
             { type: 'Army Air Force' },

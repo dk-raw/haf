@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Navbar brand="HAF" />
+    <Navbar brand="Hellenic Air Force" />
     <Nuxt />
     <br />
     <br />
