@@ -2,7 +2,9 @@
   <div>
     <div class="container">
       <h1>Hellenic Air Force unofficial website</h1>
-      <p class="lead fst-italic">-"The best airforce in NATO"</p>
+      <p class="lead fst-italic mb-0">-Αἰὲν Ὑψικρατεῖν</p>
+      <small>"Always Dominate the Heights"</small>
+      <hr />
       <video
         src="../assets/videos/haf-promo.mp4"
         type="video/webm"
