@@ -67,6 +67,16 @@ h5 {
   color: hsl(206, 70%, 75%);
 }
 
+.dropdown-item.nuxt-link-exact-active {
+  background-color: hsl(206, 70%, 68%);
+  transition: all 0.2s ease-in-out;
+}
+
+.dropdown-item.nuxt-link-exact-active:hover,
+.dropdown-item.nuxt-link-exact-active:focus {
+  background-color: hsl(206, 70%, 68%);
+}
+
 .navbar-toggler {
   border: none;
 }
@@ -86,4 +96,16 @@ h5 {
 
 .badge.bg-primary {
   background-color: hsl(206, 70%, 72%) !important;
+}
+
+.dropdown-menu {
+  background-color: hsl(0, 0%, 12%);
+}
+
+.dropdown-item {
+  color: hsl(0, 0%, 90%);
+}
+
+.dropdown-item:active {
+  background-color: hsl(206, 70%, 68%);
 }
